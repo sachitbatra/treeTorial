@@ -1,5 +1,5 @@
 # treeTorial
-Tree and Tree Algorithms Visualization
+Tree and Tree Algorithms Visualization (Works for Binary Trees).
 
 The code uses Graphviz for visualization purpose. 
 (http://www.graphviz.org/Download..php)
