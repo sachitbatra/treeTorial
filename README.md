@@ -6,4 +6,6 @@ The code uses Graphviz for visualization purpose.
 
 Place the codes in Bin directory in Graphviz installation (or specify the directory in the C code).
 
-Inorder and Preorder visualization tries to explain the recursive algorithms by showing the nodes present in the system stack using seperate color(red).
+Visualization header file outputs a PNG of the current structure of the tree.
+
+Inorder and Preorder visualization codes try to explain the recursive algorithms by showing the nodes present in the system stack using seperate color(red).
