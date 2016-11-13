@@ -42,11 +42,6 @@ void displayTree(treeNode *root)
         {
             treeNode *current = dequeue(&front, &rear);
 
-            if (isPresentinStack(stk, current->data))
-            {
-                fprintf(fileOp, "%d [fillcolor = red, style = filled];", current->data);
-            }
-
             if ((!current->left) && (!current->right) && (current!=root))
             {
                 fprintf(fileOp, "%d [color = \"blue\"];", current->data);
